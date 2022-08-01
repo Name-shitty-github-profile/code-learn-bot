@@ -8,6 +8,9 @@ Host()
 for fn in listdir('cogs'):
   if fn.endswith(".py"):
     bot.load_extension(f'cogs.{fn[:-3]}')
+@bot.listen("on_disconnect")
+async def change_ip():
+  system("kill 1")
 try:
   bot.run(token)
 except Exception as e:
