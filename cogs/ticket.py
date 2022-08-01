@@ -2,7 +2,6 @@ from buttons import ticketbtn
 from nextcord.ext import commands
 import nextcord
 from data import guild_id
-
 class ticket(commands.Cog):
   def __init__(self, bot):
     self.bot = bot
