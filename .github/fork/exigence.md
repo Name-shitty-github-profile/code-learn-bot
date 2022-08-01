@@ -12,3 +12,7 @@ Le bot doit etre fait en plusieurs fichiers
 Quand le bot est fermer le bot doit faire "kill 1" dans le shell
 <br>
 Si jamais le client n'arrive pas a run "kill 1" doit etre fait dans le shell
+# async
+Le bot doit etre asynchronous
+<br>
+Ce n'est pas obliger d'utiliser les fonctions asynchronous mais il faut que le code soit asynchronous.
