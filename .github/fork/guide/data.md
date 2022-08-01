@@ -4,12 +4,12 @@ Nous voulons un fichier different contenent ces informations
 <br>
 le token doit etre une variable environnement.
 <br>
-js
+js<br>
 ```js
 process.env.VariableName
 ```
 <br>
-Go
+Go<br>
 ```go
 import (
   "os"
@@ -17,17 +17,17 @@ import (
 os.Getenv("VariableName")
 ```
 <br>
-Java
+Java<br>
 ```java
 System.getenv("VariableName");
 ```
 <br>
-c#
+c#<br>
 ```c#
 Environment.GetEnvironmentVariable("VariableName");
 ```
 <br>
-Rust
+Rust<br>
 ```rust
 env::var("VariableName").unwrap()
 ```
